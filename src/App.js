@@ -6,6 +6,7 @@ import Events from "./pages/Events";
 import OurTeam from "./pages/OurTeam";
 import ContactUs from "./pages/ContactUs";
 import './App.css';
+import FooterComponent from "./components/FooterComponent";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/our-team" element={<OurTeam />} />
             <Route path="/contact-us" element={<ContactUs />} />
           </Routes>
+        <FooterComponent />
       </Router>
     </div>
   );
